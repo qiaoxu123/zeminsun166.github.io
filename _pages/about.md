@@ -30,13 +30,15 @@ redirect_from:
 - 深度强化学习
 
 # 招生信息 {#recruitment}
+
+**📢 注意：2027 年博士研究生招生名额已满。此外，考虑到团队目前的实际情况，暂不接受海外 CSC 申请，敬请理解。**
 - 🎓 **招生名额**：长期每年招收博士研究生1名（本科直博、硕博连读、申请考核均可），硕士研究生若干（计算机和软件学院均可），本科生科研助理若干（提供补助）。
 - 💻 **团队支持**：注重系统化科研培养，具备较全面的科研知识库，可提供细致的入门指导、设计针对每位学生背景和能力的科研题目，并提供免费算力资源和常用AI工具支持。
 - 🌱 **学生发展**：支持优秀本科生申请科研项目，并提供相应补助，助力后续保研和升学发展；硕士生达到毕业要求后支持参与企业实习；博士生支持申请国外联合培养项目。
 - 🏠 **团队介绍**：团队与孙庚教授团队保持紧密合作，组内氛围轻松，注重因材施教和团队协作，欢迎对移动边缘计算、无人机通信和生成式人工智能等方向有研究兴趣的同学通过邮件联系，尤其欢迎自驱力强和目标明确的同学加入。
 
 # 工作经历 {#educations}
-- 2025.12 至 至今     吉林大学，计算机科学与技术学院，准聘副教授
+- 2025.12 至今     吉林大学，计算机科学与技术学院，准聘副教授
 - 2022.09 至 2025.09，吉林大学，计算机科学与技术学院，鼎新学者博士后，合作导师：[孙庚教授](https://sungeng207.github.io/)
 
 # 教育经历
@@ -77,7 +79,7 @@ redirect_from:
 - Long He, Geng Sun\*, **Zemin Sun**, Pengfei Wang, Jiahui Li, Shuang Liang, Dusit Niyato. [An Online Joint Optimization Approach for QoE Maximization in UAV-Enabled Mobile Edge Computing](https://ieeexplore.ieee.org/abstract/document/10621306), *IEEE International Conference on Computer Communications (IEEE INFOCOM 2024)*. **(CCF A类会议)**
 - Jing Zhang, Dongyang Gao, Jiacheng Wang, **Zemin Sun**, Shuang Liang, Ruichen Zhang, Geng Sun\*, [Real-Time Beam Tracking Algorithm for UAVs in Millimeter-wave Networks with Adaptive Beamwidth Adjustment](https://ieeexplore.ieee.org/abstract/document/11059576), *The 21st International Wireless Communications & Mobile Computing Conference (IEEE IWCMC 2025)*. **(Best Paper Award)**
 
-# 教改项目 {#projects}
+# 教改项目 {#teaching-projects}
 - 吉林省2025年度研究生教育教学改革课题，基于对分课堂的《数据通信》课程设计与建设，2024-10至2026-10，参与（3/6）
 
 # 科研项目 {#projects}
@@ -110,7 +112,7 @@ redirect_from:
 
 # 学术兼职 {#services}
 - Associate Editor, IEEE Transactions on Network and Service Management
-- Gest Editor, IEEE Internet of Things Magazine (2025), Special Issue on "IoT Embodied AI: Intelligent Sensing, Communication and Control"
+- Guest Editor, IEEE Internet of Things Magazine (2025), Special Issue on "IoT Embodied AI: Intelligent Sensing, Communication and Control"
 - 中国通信学会会员
 - ICA3PP 2023 国际会议的技术委员会委员
 - 多个顶级期刊与学术会议审稿人

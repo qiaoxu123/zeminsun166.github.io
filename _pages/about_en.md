@@ -19,9 +19,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Zemin Sun**, Ph.D., is an Assistant Professor (Research Fellow) and Doctoral Supervisor at the College of Computer Science and Technology, Jilin University, and has been selected for Jilin University's "Dingxin Scholar" Support Program. In September 2019, he was funded by the China Scholarship Council to study abroad at the University of Waterloo, Canada, as a visiting scholar. He received his Ph.D. in Computer Application Technology from Jilin University in July 2022, his Master's degree in Computer Application Technology from Jilin University in 2018, and his Bachelor's degree from the School of Software, Jilin University in 2015. He has received awards and honors including the ACM China Outstanding Doctoral Dissertation Award, the China Electronics Society IoT Expert Committee Outstanding Journal Paper Award, Jilin University First-Class Graduate Student Excellence Scholarship, and the National Scholarship for Master's Students. 
+**Zemin Sun**, Ph.D., is a Tenure-track Associate Professor (Research Fellow) and Doctoral Supervisor at the College of Computer Science and Technology, Jilin University, and has been selected for Jilin University's "Dingxin Scholar" Support Program. In September 2019, he received support from the China Scholarship Council for joint doctoral training at the University of Waterloo, Canada. He received his Ph.D. in Computer Application Technology from Jilin University in July 2022, his Master's degree in Computer Application Technology from Jilin University in 2018, and his Bachelor's degree from the School of Software, Jilin University in 2015. He has received awards and honors including the ACM China Outstanding Doctoral Dissertation Award, the China Electronics Society IoT Expert Committee Outstanding Journal Paper Award, Jilin University First-Class Graduate Student Excellence Scholarship, and the National Scholarship for Master's Students. 
 
-In the past 5 years, as **first author or corresponding author**, he has published more than 20 academic papers in high-level journals and international conferences such as IEEE TMC, IEEE TSC, IEEE/ACM ToN, IEEE COMST, IEEE INFOCOM, and IEEE ICC <a href='https://scholar.google.com/citations?user=TJtQW8gAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzeminsun166%2Fzeminsun166.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=google-scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=3600" alt="citations"></a>); granted 10 invention patents; presided over 1 National Natural Science Foundation of China Young Science Foundation Program, Scientific Research Project of Jilin Provincial Department of Education, 1 China Postdoctoral Science Foundation General Project and 1 Postdoctoral International Academic Exchange Project, and participated as a key member in 3 National Natural Science Foundation General Projects, 1 National Natural Science Foundation International (Regional) Cooperation and Exchange Project, and 3 Jilin Province Science and Technology Development Plan Projects.
+In the past 5 years, as **first author or corresponding author**, he has published more than 20 academic papers in high-level journals and international conferences such as IEEE TMC, IEEE TSC, IEEE/ACM ToN, IEEE COMST, IEEE INFOCOM, and IEEE ICC <a href='https://scholar.google.com/citations?user=TJtQW8gAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzeminsun166%2Fzeminsun166.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=google-scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=3600" alt="citations"></a>); granted 10 invention patents; served as principal investigator of one National Natural Science Foundation of China Young Scientists Fund (Category C) project, one China Postdoctoral Science Foundation General Project, and one Postdoctoral International Academic Exchange Project; and participated as a key member in three National Natural Science Foundation of China General Projects, one National Natural Science Foundation of China International (Regional) Cooperation and Exchange Project, and three Jilin Province Science and Technology Development Plan Projects.
 
 # Research Areas
 - Mobile Edge Computing
@@ -30,13 +30,15 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 - Deep Reinforcement Learning
 
 # Recruitment {#recruitment}
+
+**📢 Note: All Ph.D. positions for 2027 have been filled. Due to current team circumstances, we are temporarily not accepting overseas CSC applications. Thank you for your understanding.**
 - 🎓 **Openings**: Annually recruiting 1 Ph.D. student (direct-admission, master-to-Ph.D. transfer, or application-based), multiple Master's students (Computer Science or Software Engineering), and several undergraduate research assistants (with stipend).
 - 💻 **Team Support**: Systematic research training with a comprehensive knowledge base, detailed entry-level guidance, personalized research topics tailored to each student's background and abilities, free computing resources, and access to common AI tools.
 - 🌱 **Student Development**: Outstanding undergraduates are supported in applying for research projects with stipends to facilitate graduate school applications; Master's students meeting graduation requirements are supported for industry internships; Ph.D. students are supported for international joint training programs.
 - 🏠 **About the Team**: The team maintains close collaboration with Prof. Geng Sun's group, fostering a relaxed and supportive atmosphere that emphasizes individualized mentoring and teamwork. We welcome inquiries from students interested in mobile edge computing, UAV communication and networks, and generative artificial intelligence, particularly those with strong self-motivation and clear goals.
 
 # Work Experience {#educations}
-- 2025.12 - Present, Jilin University, College of Computer Science and Technology, Assistant Professor
+- 2025.12 - Present, Jilin University, College of Computer Science and Technology, Tenure-track Associate Professor
 - 2022.09 - 2025.09, Jilin University, College of Computer Science and Technology, Dingxin Scholar Postdoctoral Fellow, Supervisor: [Prof. Geng Sun](https://sungeng207.github.io/)
 
 # Education
@@ -84,6 +86,7 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 </div>
 </div> -->
 
+- Xu Qiao, Jian Wang, **Zemin Sun\*** and Yixian Wang\*, "[Traffic-Aware Embodied Edge Intelligence for Vehicular Networks: An Integrated VLM and MAPPO Approach](https://ieeexplore.ieee.org/abstract/document/11616594)" in *IEEE Transactions on Cognitive Communications and Networking*, vol. 12, pp. 10573-10588, 2026, doi: 10.1109/TCCN.2026.3715701. **(IF=8.081) (SCI, 中科院2区)**
 - **Zemin Sun**, Geng Sun\*, Qingqing Wu, Long He, Shuang Liang, Hongyang Pan, Dusit Niyato, Chau Yuen, Victor Leung. [TJCCT: A Two-timescale Approach for UAV-assisted Mobile Edge Computing](https://ieeexplore.ieee.org/abstract/document/10766404), *IEEE Transactions on Mobile Computing*, 2025. **(IF=7.9) (SCI, CCF A)** 
 - **Zemin Sun**, Geng Sun\*, Long He, Fang Mei, Shuang Liang, and Yanheng Liu, [A Two Time-Scale Joint Optimization Approach for UAV-assisted MEC](https://ieeexplore.ieee.org/abstract/document/10621095) *IEEE International Conference on Computer Communications (IEEE INFOCOM 2024)*. **(CCF A)**
 - **Zemin Sun**, Geng Sun\*, Yanheng Liu, Jian Wang, and Dongpu Cao, [BARGAIN-MATCH: A Game Theoretical Approach For Resource Allocation and Task Offloading in Vehicular Edge Computing Networks](https://ieeexplore.ieee.org/abstract/document/10024868/), 2024. **(IF=7.9) (SCI, CCF A 类) (ESI高被引论文，ESI 热点论文，IEEE TMC Popular Article)**
@@ -106,6 +109,7 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 - Shuang Liang, Minhao Yin, Wenwen Xie, **Zemin Sun\***, Jiahui Li\*, Jiacheng Wang, and Hongyang Du. [UAV-Enabled Secure Data Collection and Energy Transfer in IoT via Diffusion Model-Enhanced Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10812918?casa_token=1StyqOaYX1EAAAAA:0KfoybZfMCuB2eZQD0jm4CRavMmkJSpe0xFsp8ePGF_6pzFN4G7HuvgN0sysqJ-Jee5a1304_g), *IEEE Internet of Things Journal*, 2024. **(IF=8.2) (SCI, 中科院1区)**
 - Wanjun Zhang, Aimin Wang, Long He, **Zemin Sun\***, Jiahui Li and Geng Sun, [Task Offloading in UAV-assisted Vehicular Edge Computing Networks](https://link.springer.com/chapter/10.1007/978-981-97-0811-6_23), *International Conference on Algorithms and Architectures for Parallel Processing*, (*ICA3PP 2023*). **(CCF C类会议)**
 - Geng Sun, Jiayun Zhang, **Zemin Sun\***, Long He, and Jiahui Li. [Collaborative Task offloading in Vehicular Edge Computing Networks](https://ieeexplore.ieee.org/abstract/document/9973467/), *IEEE International Conference on Mobile Ad Hoc and Smart Systems (IEEE MASS 2022)*. **(CCF C类会议)**
+- Geng Sun, Long He, **Zemin Sun\***, Jiayun Zhang, and Jiahui Li. [Task Offloading for Post-disaster Rescue in Vehicular Fog Computing-assisted UAV Networks](https://ieeexplore.ieee.org/abstract/document/10076577/), *IEEE 18th International Conference on Mobility, Sensing and Networking (IEEE MSN 2022)*. **(CCF C-ranked Conference)**
 - Ye Wang, Yanheng Liu, **Zemin Sun\***, Lingling Liu, Jiahui Li, and Geng Sun. [Priority-aware Task Offloading and Resource Allocation in Vehicular Edge Computing Networks](https://ieeexplore.ieee.org/abstract/document/10076601/), *IEEE 18th International Conference on Mobility, Sensing and Networking (IEEE MSN 2022)*. **(CCF C类会议)**
 - Geng Sun, Jiahui Li, Aimin Wang\*, Qingqing Wu\*, **Zemin Sun**, Yanheng Liu. [Secure and Energy-Efficient UAV Relay Communications Exploiting Collaborative Beamforming](https://ieeexplore.ieee.org/abstract/document/9798882), *IEEE Transactions on Communications*, 70(8), 5401-5416, 2022. **(IF=6.166) (SCI, CCF B类)**
 - Geng Sun, Jiahui Li, Aimin Wang\*, Qingqing Wu, **Zemin Sun**, Yanheng Liu, Shuang Liang. [Collaborative Beamforming for UAV Networks Exploiting Swarm Intelligence](https://ieeexplore.ieee.org/abstract/document/9920738), *IEEE Wireless Communications*, 29(4): 10-17, 2022. **(IF=11.39)**
@@ -130,19 +134,20 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 12. Jilin Provincial Department of Science and Technology, Jilin Province Science and Technology Development Plan Key R&D Project, "Key Technologies for Efficient Data Transmission in Distributed Satellite Collaborative Beamforming(20230201087GX)", 2023-01 to 2025-12, 500,000 RMB (Participant)
 
 # Patents {#patents}
+- Geng Sun, Weihong Qin, **Zemin Sun**, Xuejie Liu, Aimin Wang, Jiahui Li, Shuang Liang, Yixian Wang, An Integrated Space-Air-Ground Network-Assisted Edge Computing Method, Patent No.: ZL202510624221.4
 - Geng Sun, Long He, **Zemin Sun**, Shuang Liang, Jiahui Li, Xiaoya Zheng, Jiayun Zhang, A Method for Task Offloading in Vehicle Fog-assisted UAV Post-disaster Rescue, Patent No.: ZL202210788909.2
-- Geng Sun, Jiayun Zhang, **Zemin Sun**, Jiahui Li, Long He, Xiaoya Zheng, Saichao Liu, Shuang Liang, A Method for Collaborative Task Offloading in Vehicular Edge Networks, Patent No.: CN202211163428.9
-- Geng Sun, Yixian Wang, **Zemin Sun**, Jiahui Li, Long He, Chuang Zhang, Xiaoya Zheng, Shuang Liang, An Optimization Method for Multi-UAV-assisted Mobile Edge Computing, Patent No.: CN 202411558942.1
-- Geng Sun, Wenwen Xie, Jiahui Li, **Zemin Sun**, Shuang Liang, Long He, A Method for Intelligent Reflecting Surface-assisted UAV Secure Communication, Patent No.: CN 202311049636.0
-- Geng Sun, Jian Xiao, Jiahui Li, **Zemin Sun**, Chuang Zhang, Long He, Wenwen Xie, Shuang Liang, Multi-objective Optimization Method for High-speed Dynamic Communication Based on UAV Collaborative Beamforming, Patent No.: CN 202411022416.3 
+- Geng Sun, Jiayun Zhang, **Zemin Sun**, Jiahui Li, Long He, Xiaoya Zheng, Saichao Liu, Shuang Liang, A Method for Collaborative Task Offloading in Vehicular Edge Networks, Patent No.: ZL202211163428.9
+- Geng Sun, Yixian Wang, **Zemin Sun**, Jiahui Li, Long He, Chuang Zhang, Xiaoya Zheng, Shuang Liang, An Optimization Method for Multi-UAV-assisted Mobile Edge Computing, Patent No.: ZL202411558942.1
+- Geng Sun, Wenwen Xie, Jiahui Li, **Zemin Sun**, Shuang Liang, Long He, A Method for Intelligent Reflecting Surface-assisted UAV Secure Communication, Patent No.: ZL202311049636.0
+- Geng Sun, Jian Xiao, Jiahui Li, **Zemin Sun**, Chuang Zhang, Long He, Wenwen Xie, Shuang Liang, Multi-objective Optimization Method for High-speed Dynamic Communication Based on UAV Collaborative Beamforming, Patent No.: ZL202411022416.3 
 - Shujing Li, Yanheng Liu, Jian Wang, Geng Sun, **Zemin Sun**, Kunpeng Zhang, Tingting Zheng, A Method for Basic Safety Message Broadcasting with Differential Power in Vehicular Networks Based on TDMA, Patent No.: ZL201910499744.6 
-- Aimin Wang, Jiawei Huang, Geng Sun, Jiahui Li, Xiaoya Zheng, **Zemin Sun**, Saichao Liu, Chuang Zhang, A Method for Maritime Secure Communication Based on UAV Swarm, Patent No.: CN202211444113.1
-- Xueqi Zhang, Aimin Wang, Lingling Liu, Geng Sun, Jing Wu, **Zemin Sun**, Jiahui Li, Hongyang Pan, A Method for UAV Deployment Optimization in UAV-assisted Wireless Communication, Patent No.: CN202410470965.0
+- Aimin Wang, Jiawei Huang, Geng Sun, Jiahui Li, Xiaoya Zheng, **Zemin Sun**, Saichao Liu, Chuang Zhang, A Method for Maritime Secure Communication Based on UAV Swarm, Patent No.: ZL202211444113.1
+- Xueqi Zhang, Aimin Wang, Lingling Liu, Geng Sun, Jing Wu, **Zemin Sun**, Jiahui Li, Hongyang Pan, A Method for UAV Deployment Optimization in UAV-assisted Wireless Communication, Patent No.: ZL202410470965.0
 - Geng Sun, Xiaoya Zheng, Jiahui Li, Aimin Wang, Shuang Liang, Zhao Liu, **Zemin Sun**, Yanheng Liu, A Method for UAV Swarm Secure Communication, Patent No.: ZL202210003107.6 
 
 # Academic Services {#services}
 - Associate Editor, IEEE Transactions on Network and Service Management
-- Gest Editor, IEEE Internet of Things Magazine (2025), Special Issue on "IoT Embodied AI: Intelligent Sensing, Communication and Control"
+- Guest Editor, IEEE Internet of Things Magazine (2025), Special Issue on "IoT Embodied AI: Intelligent Sensing, Communication and Control"
 - Member of China Communications Society
 - Technical Program Committee Member of ICA3PP 2023 International Conference
 - Reviewer for multiple top-tier journals and academic conferences
@@ -158,8 +163,8 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 # Awards and Honors {#awards}
 - IEEE Communications Society 2025 Exemplary Reviewer (IEEE TNSE)
 - The 21st International Wireless Communications & Mobile Computing Conference (IEEE IWCMC 2025) Best Paper Award
-- ACM China Outstanding Doctoral Dissertation Award (2024, Changchun Branch) (8/12)
-- China Business Federation Science and Technology Award Second Prize (2023): Distributed Collaborative Beamforming Dynamic Multi-objective Optimization Method and Application
+- ACM China Outstanding Doctoral Dissertation Award (2024, Changchun Branch)
+- China Business Federation Science and Technology Award Second Prize (2023): Distributed Collaborative Beamforming Dynamic Multi-objective Optimization Method and Application (8/12)
 - Paper "BARGAIN-MATCH: A Game Theoretical Approach For Resource Allocation and Task Offloading in Vehicular Edge Computing Networks" won the 2022-2023 China Electronics Society IoT Expert Committee Outstanding Journal Paper Award
 - China Scholarship Council Government-sponsored Study Abroad Scholarship
 - National Scholarship for Master's Students

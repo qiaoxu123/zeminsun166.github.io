@@ -29,8 +29,9 @@ timezone                 : "Asia/Shanghai"
 # Site Author
 author:
   name             : "孙泽敏"
+  name_en          : "Zemin Sun"
   avatar           : "/images/avatar.png"
-  bio              : "Assistant Professor & Doctoral Supervisor, Jilin University"
+  bio              : "Tenure-track Associate Professor (Research Fellow) & Doctoral Supervisor, Jilin University"
   location         : "Jilin, China"
   employer         :
   pubmed           : 

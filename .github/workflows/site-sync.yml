@@ -1,0 +1,125 @@
+name: Validate and sync academic homepage
+
+on:
+  pull_request:
+    branches:
+      - site-source
+  push:
+    branches:
+      - site-source
+
+permissions:
+  contents: read
+
+concurrency:
+  group: academic-homepage-production-sync
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Check bilingual content and build Jekyll
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proposed website
+        uses: actions/checkout@v4
+      - name: Check homepage content
+        run: python3 scripts/check_site_sync.py
+      - name: Build site with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Inspect generated pages
+        run: python3 scripts/check_site_sync.py --built _site
+
+  sync:
+    name: Sync passing site to zeminsun166/main
+    if: github.event_name == 'push' && github.ref == 'refs/heads/site-source'
+    runs-on: ubuntu-latest
+    needs:
+      - validate
+    steps:
+      - name: Verify deployment credential exists
+        env:
+          SITE_SYNC_TOKEN: \${{ secrets.SITE_SYNC_TOKEN }}
+        run: |
+          if [ -z "$SITE_SYNC_TOKEN" ]; then
+            echo "::error::Repository secret SITE_SYNC_TOKEN is missing. See docs/SITE_SYNC_SETUP.md."
+            exit 1
+          fi
+
+      - name: Checkout validated website source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Preserve target-only automation and refuse unexpected target changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="$RUNNER_TEMP/academic-homepage-target"
+          git clone --depth 1 --branch main \
+            https://github.com/zeminsun166/zeminsun166.github.io.git "$target"
+          current=$(git -C "$target" rev-parse HEAD)
+          initial_target="f56d991bbe466130bfecc060ace8a053cbb9c33d"
+          if [ "$current" != "$initial_target" ]; then
+            subject=$(git -C "$target" log -1 --pretty=%s)
+            if [[ "$subject" =~ ^\[homepage-sync\]\ source=([0-9a-f]{40})$ ]]; then
+              prior_source="\${BASH_REMATCH[1]}"
+              if ! git merge-base --is-ancestor "$prior_source" "$GITHUB_SHA"; then
+                echo "::error::Source does not descend from the last deployed source commit."
+                exit 1
+              fi
+            else
+              echo "::error::Target main has independent commits. Reconcile target changes before publishing."
+              exit 1
+            fi
+          fi
+
+          # Mirror website content, but NEVER replace the target's .github
+          # (its Google Scholar workflow and Pages settings remain target-owned).
+          # The sync-only validator and documentation stay in the source repository.
+          rsync -a --delete \
+            --exclude='/.git/' \
+            --exclude='/.github/' \
+            --exclude='/scripts/check_site_sync.py' \
+            --exclude='/docs/SITE_SYNC_SETUP.md' \
+            --exclude='/_site/' \
+            --exclude='/.bundle/' \
+            "$GITHUB_WORKSPACE/" "$target/"
+
+          git -C "$target" config user.name "homepage-sync[bot]"
+          git -C "$target" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$target" add -A
+          if git -C "$target" diff --cached --quiet; then
+            echo "No website changes to publish."
+            exit 0
+          fi
+
+          git -C "$target" commit -m "[homepage-sync] source=$GITHUB_SHA"
+          echo "TARGET_DIR=$target" >> "$GITHUB_ENV"
+
+      - name: Push approved snapshot to original GitHub Pages repository
+        if: env.TARGET_DIR != ''
+        shell: bash
+        env:
+          SITE_SYNC_TOKEN: \${{ secrets.SITE_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Git requests credentials only for the push; the token is never
+          # written into a Git remote URL or committed to a repository.
+          askpass="$RUNNER_TEMP/site-sync-askpass.sh"
+          cat > "$askpass" <<'SH'
+          #!/bin/sh
+          case "$1" in
+            *Username*) printf '%s\n' 'x-access-token' ;;
+            *Password*) printf '%s\n' "$SITE_SYNC_TOKEN" ;;
+          esac
+          SH
+          chmod 700 "$askpass"
+          export GIT_ASKPASS="$askpass"
+          export GIT_TERMINAL_PROMPT=0
+          git -C "$TARGET_DIR" push origin HEAD:refs/heads/main
+          rm -f "$askpass"
+          echo "Published source commit $GITHUB_SHA to zeminsun166/zeminsun166.github.io main."

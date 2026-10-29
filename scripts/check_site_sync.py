@@ -23,7 +23,9 @@ def bullets(lines: list[str]) -> list[str]:
 def publication_url(line: str) -> str:
     match = re.search(r"\]\((https?://[^)]+)\)", line)
     if not match:
-        raise AssertionError(f"Publication does not contain a Markdown link: {line[:95]}")
+        # Some already-listed papers have no hyperlink. Compare their full
+        # bibliographic text across languages instead of rejecting them.
+        return "unlinked:" + re.sub(r"\\s+", " ", line).strip()
     return match.group(1)
 
 def patent_id(line: str) -> str:

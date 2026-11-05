@@ -50,6 +50,16 @@ def check_source() -> None:
     assert "暂不接受海外 CSC 申请" in zh
     assert "All Ph.D. positions for 2027 have been filled" in en
     assert "not accepting overseas CSC applications" in en
+    # Availability notes belong under the first recruitment list item, not
+    # as a separate top-level notice or callout above the openings.
+    zh_openings = bullets(section(zh, "# 招生信息", "# 工作经历"))
+    en_openings = bullets(section(en, "# Recruitment", "# Work Experience"))
+    assert len(zh_openings) == len(en_openings) == 4, "Recruitment items changed"
+    assert 'class="recruitment-note"' in zh_openings[0]
+    assert 'class="recruitment-note"' in en_openings[0]
+    assert zh.count('class="recruitment-note"') == 1
+    assert en.count('class="recruitment-note"') == 1
+    assert "**📢" not in zh and "**📢" not in en, "Old standalone notice remains"
 
     for layout in (zh_layout, en_layout):
         for tag in ('rel="canonical"', 'hreflang="zh-CN"', 'hreflang="en"',

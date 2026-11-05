@@ -31,8 +31,7 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 
 # Recruitment {#recruitment}
 
-**📢 Note: All Ph.D. positions for 2027 have been filled. Due to current team circumstances, we are temporarily not accepting overseas CSC applications. Thank you for your understanding.**
-- 🎓 **Openings**: Annually recruiting 1 Ph.D. student (direct-admission, master-to-Ph.D. transfer, or application-based), multiple Master's students (Computer Science or Software Engineering), and several undergraduate research assistants (with stipend).
+- 🎓 **Openings**: Annually recruiting 1 Ph.D. student (direct-admission, master-to-Ph.D. transfer, or application-based), multiple Master's students (Computer Science or Software Engineering), and several undergraduate research assistants (with stipend). <span class="recruitment-note">Note: All Ph.D. positions for 2027 have been filled; we are currently not accepting overseas CSC applications.</span>
 - 💻 **Team Support**: Systematic research training with a comprehensive knowledge base, detailed entry-level guidance, personalized research topics tailored to each student's background and abilities, free computing resources, and access to common AI tools.
 - 🌱 **Student Development**: Outstanding undergraduates are supported in applying for research projects with stipends to facilitate graduate school applications; Master's students meeting graduation requirements are supported for industry internships; Ph.D. students are supported for international joint training programs.
 - 🏠 **About the Team**: The team maintains close collaboration with Prof. Geng Sun's group, fostering a relaxed and supportive atmosphere that emphasizes individualized mentoring and teamwork. We welcome inquiries from students interested in mobile edge computing, UAV communication and networks, and generative artificial intelligence, particularly those with strong self-motivation and clear goals.

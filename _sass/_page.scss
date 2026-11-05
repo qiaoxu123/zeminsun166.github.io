@@ -410,3 +410,13 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Recruitment availability is a secondary note within the openings item. */
+.page__content .recruitment-note {
+  display: block;
+  margin: 0.2em 0 0 0.2em;
+  color: $gray;
+  font-size: 0.85em;
+  font-weight: normal;
+  line-height: 1.5;
+}

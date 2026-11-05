@@ -44,7 +44,13 @@ def check_source() -> None:
 
     assert "<title>孙泽敏</title>" in zh_layout, "Chinese page title must remain unchanged"
     assert "Zemin Sun" in config and "name_en" in profile
-    assert "bio_zh" in config and "bio_en" in config, "Missing localized position titles"
+    assert 'bio_zh           : "准聘副教授 · 博士生导师"' in config
+    assert 'bio_en           : "Tenure-track Associate Professor · Ph.D. Supervisor"' in config
+    assert 'department_zh    : "计算机科学与技术学院"' in config
+    assert 'department_en    : "College of Computer Science and Technology"' in config
+    assert 'description_en           : "Jilin University"' in config
+    assert 'author__role-group' in profile and 'author.department_zh' in profile
+    assert 'author.department_en' in profile and 'site.description_en' in profile
     assert "page.layout == \"page_zh\"" in profile and "page.layout == \"page_en\"" in profile
     assert "2027 年博士研究生招生名额已满" in zh
     assert "暂不接受海外 CSC 申请" in zh
@@ -112,6 +118,14 @@ def check_built(site: Path) -> None:
             title == "Zemin Sun" and "<title>Zemin Sun |" in html
         ), f"Wrong built title: {page}"
         assert 'application/ld+json' in html, f"Structured data missing from {page}"
+        role = ("准聘副教授 · 博士生导师" if title == "孙泽敏"
+                else "Tenure-track Associate Professor · Ph.D. Supervisor")
+        department = ("计算机科学与技术学院" if title == "孙泽敏"
+                      else "College of Computer Science and Technology")
+        institution = ("吉林大学" if title == "孙泽敏" else "Jilin University")
+        assert role in html and department in html and institution in html, (
+            f"Localized profile role, department or institution missing from {page}"
+        )
     print("PASS: Built Chinese and English pages and SEO metadata")
 
 def main() -> None:

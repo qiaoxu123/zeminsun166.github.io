@@ -12,9 +12,15 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.name_en %}<p class="author__name-en" lang="en">{{ author.name_en }}</p>{% endif %}
     {% if page.layout == "page_zh" and author.bio_zh %}
-      <p class="author__bio" lang="zh-CN">{{ author.bio_zh }}</p>
+      <div class="author__role-group" lang="zh-CN">
+        <p class="author__bio">{{ author.bio_zh }}</p>
+        {% if author.department_zh %}<p class="author__department">{{ author.department_zh }}</p>{% endif %}
+      </div>
     {% elsif page.layout == "page_en" and author.bio_en %}
-      <p class="author__bio" lang="en">{{ author.bio_en }}</p>
+      <div class="author__role-group" lang="en">
+        <p class="author__bio">{{ author.bio_en }}</p>
+        {% if author.department_en %}<p class="author__department">{{ author.department_en }}</p>{% endif %}
+      </div>
     {% elsif author.bio %}
       <p class="author__bio">{{ author.bio }}</p>
     {% endif %}
@@ -23,8 +29,12 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+      {% assign institution_label = site.description %}
+      {% if page.layout == "page_en" and site.description_en %}
+        {% assign institution_label = site.description_en %}
+      {% endif %}
+      {% if institution_label %}
+        <li><div style="white-space: normal; margin-bottom: 1em;">{{ institution_label }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>

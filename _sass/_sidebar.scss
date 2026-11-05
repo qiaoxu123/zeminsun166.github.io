@@ -155,6 +155,26 @@
   }
 }
 
+/* Keep rank and college as two compact lines above the university. */
+.author__role-group {
+  .author__bio {
+    margin: 0;
+  }
+
+  .author__department {
+    margin: 0.3em 0 0;
+    color: $gray;
+    font-size: 0.9em;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;

@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "Zemin Sun"
 description              : "吉林大学"
+description_en           : "Jilin University"
 url                      : "https://zeminsun166.github.io"
 baseurl                  : ""
 repository               : "zeminsun166/zeminsun166.github.io"
@@ -32,8 +33,10 @@ author:
   name_en          : "Zemin Sun"
   avatar           : "/images/avatar.png"
   bio              : "Tenure-track Associate Professor (Research Fellow) & Doctoral Supervisor, Jilin University"
-  bio_zh           : "吉林大学计算机科学与技术学院准聘副教授（研究员）、博士生导师"
-  bio_en           : "Tenure-track Associate Professor (Research Fellow) & Doctoral Supervisor, Jilin University"
+  bio_zh           : "准聘副教授 · 博士生导师"
+  bio_en           : "Tenure-track Associate Professor · Ph.D. Supervisor"
+  department_zh    : "计算机科学与技术学院"
+  department_en    : "College of Computer Science and Technology"
   location         : "Jilin, China"
   employer         :
   pubmed           : 

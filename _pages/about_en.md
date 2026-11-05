@@ -38,7 +38,7 @@ In the past 5 years, as **first author or corresponding author**, he has publish
 
 # Work Experience {#educations}
 - 2025.12 - Present, Jilin University, College of Computer Science and Technology, Tenure-track Associate Professor
-- 2022.09 - 2025.09, Jilin University, College of Computer Science and Technology, Dingxin Scholar Postdoctoral Fellow, Supervisor: [Prof. Geng Sun](https://sungeng207.github.io/)
+- 2022.09 - 2025.09, Jilin University, College of Computer Science and Technology, Dingxin Scholar Postdoctoral Fellow, Supervisor: Prof. Geng Sun
 
 # Education
 - 2019.09 - 2020.10, University of Waterloo, Canada, Mechanical and Mechatronics Engineering, Joint Ph.D. Training, Supervisor: Prof. Dongpu Cao

@@ -44,6 +44,8 @@ def check_source() -> None:
 
     assert "<title>孙泽敏</title>" in zh_layout, "Chinese page title must remain unchanged"
     assert "Zemin Sun" in config and "name_en" in profile
+    assert "bio_zh" in config and "bio_en" in config, "Missing localized position titles"
+    assert "page.layout == \"page_zh\"" in profile and "page.layout == \"page_en\"" in profile
     assert "2027 年博士研究生招生名额已满" in zh
     assert "暂不接受海外 CSC 申请" in zh
     assert "All Ph.D. positions for 2027 have been filled" in en
